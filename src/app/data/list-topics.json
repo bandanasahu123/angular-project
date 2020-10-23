@@ -1,0 +1,385 @@
+{
+  "bgColor": "#86ba4b",
+  "cid": 3,
+  "class": "col-md-3 col-xs-6",
+  "color": "#fff",
+  "description": "Blog posts from individual members",
+  "descriptionParsed": "<p>Blog posts from individual members</p>\n",
+  "disabled": 0,
+  "icon": "fa-newspaper-o",
+  "imageClass": "cover",
+  "isSection": 0,
+  "link": "",
+  "name": "Blogs",
+  "numRecentReplies": 1,
+  "order": 4,
+  "parentCid": 0,
+  "post_count": 6,
+  "slug": "3/blogs",
+  "topic_count": 3,
+  "totalPostCount": 6,
+  "totalTopicCount": 3,
+  "tagWhitelist": [],
+  "unread-class": "",
+  "children": [],
+  "topics": [
+    {
+      "cid": 3,
+      "lastposttime": 1603103677434,
+      "mainPid": 31,
+      "postcount": 4,
+      "slug": "14/gyrewuryuweu",
+      "tid": 14,
+      "timestamp": 1603103572344,
+      "title": "gyrewuryuweu",
+      "uid": 2,
+      "viewcount": 6,
+      "teaserPid": 35,
+      "downvotes": 1,
+      "upvotes": 0,
+      "deleted": 0,
+      "locked": 0,
+      "pinned": 0,
+      "deleterUid": 0,
+      "titleRaw": "gyrewuryuweu",
+      "timestampISO": "2020-10-19T10:32:52.344Z",
+      "lastposttimeISO": "2020-10-19T10:34:37.434Z",
+      "votes": -1,
+      "category": {
+        "cid": 3,
+        "name": "Blogs",
+        "slug": "3/blogs",
+        "icon": "fa-newspaper-o",
+        "image": null,
+        "imageClass": "cover",
+        "bgColor": "#86ba4b",
+        "color": "#fff",
+        "disabled": 0
+      },
+      "user": {
+        "uid": 2,
+        "username": "bandana123",
+        "userslug": "bandana123",
+        "reputation": -2,
+        "postcount": 2,
+        "picture": null,
+        "signature": null,
+        "banned": 0,
+        "status": "offline",
+        "icon:text": "B",
+        "icon:bgColor": "#2196f3",
+        "banned_until_readable": "Not Banned"
+      },
+      "teaser": {
+        "pid": 35,
+        "uid": 1,
+        "timestamp": 1603103677434,
+        "tid": 14,
+        "content": "welkroe ewrjwer wereworwerkwe\n",
+        "timestampISO": "2020-10-19T10:34:37.434Z",
+        "user": {
+          "uid": 1,
+          "username": "admin",
+          "userslug": "admin",
+          "picture": null,
+          "icon:text": "A",
+          "icon:bgColor": "#673ab7"
+        },
+        "index": 4
+      },
+      "tags": [],
+      "isOwner": false,
+      "ignored": false,
+      "unread": false,
+      "bookmark": 6,
+      "unreplied": false,
+      "icons": [],
+      "index": 0
+    },
+    {
+      "cid": 3,
+      "lastposttime": 1603103539122,
+      "mainPid": 30,
+      "postcount": 1,
+      "slug": "13/geloooooooooooooooooooo",
+      "tid": 13,
+      "timestamp": 1603103539122,
+      "title": "geloooooooooooooooooooo",
+      "uid": 0,
+      "viewcount": 0,
+      "deleted": 1,
+      "deletedTimestamp": 1603182838129,
+      "deleterUid": 0,
+      "locked": 0,
+      "pinned": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "titleRaw": "geloooooooooooooooooooo",
+      "timestampISO": "2020-10-19T10:32:19.122Z",
+      "lastposttimeISO": "2020-10-19T10:32:19.122Z",
+      "votes": 0,
+      "teaserPid": null,
+      "category": {
+        "cid": 3,
+        "name": "Blogs",
+        "slug": "3/blogs",
+        "icon": "fa-newspaper-o",
+        "image": null,
+        "imageClass": "cover",
+        "bgColor": "#86ba4b",
+        "color": "#fff",
+        "disabled": 0
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:guest]]",
+        "userslug": "",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "postcount": 0,
+        "banned": 0,
+        "picture": "",
+        "groupTitleArray": [],
+        "banned_until_readable": "Not Banned"
+      },
+      "teaser": null,
+      "tags": [],
+      "isOwner": false,
+      "ignored": false,
+      "unread": false,
+      "bookmark": 3,
+      "unreplied": true,
+      "icons": [],
+      "index": 1
+    },
+    {
+      "cid": 3,
+      "lastposttime": 1603098901181,
+      "mainPid": 26,
+      "postcount": 1,
+      "slug": "11/sdhufujfhds-dsjhf",
+      "tid": 11,
+      "timestamp": 1603098901181,
+      "title": "sdhufujfhds dsjhf",
+      "uid": 2,
+      "viewcount": 1,
+      "downvotes": 1,
+      "upvotes": 0,
+      "deleted": 0,
+      "locked": 0,
+      "pinned": 0,
+      "deleterUid": 0,
+      "titleRaw": "sdhufujfhds dsjhf",
+      "timestampISO": "2020-10-19T09:15:01.181Z",
+      "lastposttimeISO": "2020-10-19T09:15:01.181Z",
+      "votes": -1,
+      "teaserPid": null,
+      "category": {
+        "cid": 3,
+        "name": "Blogs",
+        "slug": "3/blogs",
+        "icon": "fa-newspaper-o",
+        "image": null,
+        "imageClass": "cover",
+        "bgColor": "#86ba4b",
+        "color": "#fff",
+        "disabled": 0
+      },
+      "user": {
+        "uid": 2,
+        "username": "bandana123",
+        "userslug": "bandana123",
+        "reputation": -2,
+        "postcount": 2,
+        "picture": null,
+        "signature": null,
+        "banned": 0,
+        "status": "offline",
+        "icon:text": "B",
+        "icon:bgColor": "#2196f3",
+        "banned_until_readable": "Not Banned"
+      },
+      "teaser": null,
+      "tags": [],
+      "isOwner": false,
+      "ignored": false,
+      "unread": false,
+      "bookmark": 3,
+      "unreplied": true,
+      "icons": [],
+      "index": 2
+    }
+  ],
+  "nextStart": 20,
+  "isWatched": true,
+  "isNotWatched": false,
+  "isIgnored": false,
+  "breadcrumbs": [
+    { "text": "[[global:home]]", "url": "/" },
+    { "text": "Blogs", "url": "/category/3/blogs", "cid": 3 }
+  ],
+  "title": "Blogs",
+  "privileges": {
+    "topics:create": true,
+    "topics:read": true,
+    "topics:tag": true,
+    "read": true,
+    "cid": "3",
+    "uid": 1,
+    "editable": true,
+    "view_deleted": true,
+    "isAdminOrMod": true
+  },
+  "showSelect": true,
+  "rssFeedUrl": "http://localhost:4567/category/3.rss?uid=1&token=010afb41-1921-4eee-a784-e73391eeaf22",
+  "feeds:disableRSS": 0,
+  "reputation:disabled": 0,
+  "pagination": {
+    "prev": { "page": 1, "active": false },
+    "next": { "page": 1, "active": false },
+    "first": { "page": 1, "active": true },
+    "last": { "page": 1, "active": true },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": true,
+  "relative_path": "",
+  "template": { "name": "category", "category": true },
+  "url": "/category/3",
+  "bodyClass": "page-category page-category-3 parent-category-3 page-status-200",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        { "name": "apple-mobile-web-app-capable", "content": "yes" },
+        { "name": "mobile-web-app-capable", "content": "yes" },
+        { "property": "og:site_name", "content": "NodeBB" },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=http://localhost:4567/sitemap.xml",
+          "noEscape": true
+        },
+        { "name": "title", "content": "Blogs" },
+        { "property": "og:title", "content": "Blogs" },
+        {
+          "name": "description",
+          "content": "Blog posts from individual members"
+        },
+        { "property": "og:type", "content": "website" },
+        {
+          "property": "og:image",
+          "content": "http://localhost:4567/assets/logo.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "http://localhost:4567/assets/logo.png",
+          "noEscape": true
+        },
+        { "property": "og:image:width", "content": "128" },
+        { "property": "og:image:height", "content": "128" },
+        {
+          "content": "http://localhost:4567/api/category/3",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v=1p8iu910haa"
+        },
+        { "rel": "manifest", "href": "/manifest.json" },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v=1p8iu910haa"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v=1p8iu910haa"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v=1p8iu910haa"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v=1p8iu910haa"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v=1p8iu910haa"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v=1p8iu910haa"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v=1p8iu910haa"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v=1p8iu910haa"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/en-GB/topic.json?v=1p8iu910haa"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/en-GB/modules.json?v=1p8iu910haa"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/en-GB/tags.json?v=1p8iu910haa"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/plugins/nodebb-plugin-markdown/styles/railscasts.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/highlight.js?v=1p8iu910haa"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/en-GB/markdown.json?v=1p8iu910haa"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/plugins/nodebb-plugin-emoji/emoji/styles.css?v=1p8iu910haa"
+        },
+        { "rel": "up", "href": "http://localhost:4567" },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "http://localhost:4567/category/3.rss?uid=1&token=010afb41-1921-4eee-a784-e73391eeaf22"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\">\r\n\t<div>\r\n\t\tPowered by <a target=\"_blank\" href=\"https://nodebb.org\">NodeBB</a> | <a target=\"_blank\" href=\"//github.com/NodeBB/NodeBB/graphs/contributors\">Contributors</a>\r\n\t</div>\r\n</footer>"
+      }
+    ]
+  }
+}

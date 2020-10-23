@@ -1,28 +1,32 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms'
-import { HttpClientModule } from '@angular/common/http'
 
+//Modules
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+
+//Services
+import { ApiService } from './services/api.service';
+
+//Componenets
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AddTutorialComponent } from './components/add-tutorial/add-tutorial.component';
-import { TutorialDetailsComponent } from './components/tutorial-details/tutorial-details.component';
-import { TutorialListComponent } from './components/tutorial-list/tutorial-list.component';
+import { AddTopicComponent } from './components/add-topic/add-topic.component';
+import { AddReplyComponent } from './components/add-reply/add-reply.component';
+import { ListTopicsComponent } from './components/list-topics/list-topics.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AddTutorialComponent,
-    TutorialDetailsComponent,
-    TutorialListComponent
+    AddTopicComponent,
+    AddReplyComponent,
+    ListTopicsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    FormsModule,
-    HttpClientModule
+    AppRoutingModule, FormsModule, HttpClientModule, ReactiveFormsModule
   ],
-  providers: [],
+  providers: [ApiService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

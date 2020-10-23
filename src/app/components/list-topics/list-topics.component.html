@@ -1,0 +1,27 @@
+<section>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <h1>Topic List</h1>
+        <a routerLink="/add-topic" class="btn btn-primary m-2">Add Topic</a>
+        <ul class="list-group">
+          <li class="list-group-item" *ngFor="let topic of topics; let i =index;">
+            <div class="row">
+              <div class="col-8">
+                <p> {{topic.title}}
+                </p>
+              </div>
+              <div class="col-4">
+                <button class="btn btn-primary m-2">Reply</button>
+                <button class="btn btn-primary m-2">up-vote {{topic.upvotes}}</button>
+                <button class="btn btn-primary m-2">down-vote {{topic.downvotes}}</button>
+              </div>
+
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

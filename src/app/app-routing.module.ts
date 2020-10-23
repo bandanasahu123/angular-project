@@ -1,15 +1,14 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { AddTutorialComponent } from './components/add-tutorial/add-tutorial.component';
-import { TutorialDetailsComponent } from './components/tutorial-details/tutorial-details.component';
-import { TutorialListComponent } from './components/tutorial-list/tutorial-list.component';
-
+import { AddReplyComponent } from './components/add-reply/add-reply.component';
+import { AddTopicComponent } from './components/add-topic/add-topic.component';
+import { ListTopicsComponent } from './components/list-topics/list-topics.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'tutorials', pathMatch: 'full' },
-  { path: 'tutorials', component: TutorialListComponent },
-  { path: 'tutorials/:id', component: TutorialDetailsComponent },
-  { path: 'add', component: AddTutorialComponent },
+  { path: '', redirectTo: 'topics', pathMatch: 'full' },
+  { path: 'add-topic', component: AddTopicComponent },
+  { path: 'topics', component: ListTopicsComponent },
+  { path: 'add-reply', component: AddReplyComponent }
 ];
 
 @NgModule({

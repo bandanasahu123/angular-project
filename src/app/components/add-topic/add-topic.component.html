@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <h5 class="font-weight-bold">Add Topic</h5>
+      <form [formGroup]="topicAddForm" (ngSubmit)="saveTopic()">
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Add Title</label>
+          <input type="text" class="form-control" formControlName="title" id="exampleFormControlInput1"
+            placeholder="Title">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Add content</label>
+          <textarea class="form-control" formControlName="content" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
