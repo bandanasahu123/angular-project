@@ -3,13 +3,12 @@ import { Routes, RouterModule } from '@angular/router';
 import { AddTopicComponent } from './add-topic/add-topic/add-topic.component';
 import { ListTopicComponent } from './list-topic/list-topic/list-topic.component';
 
-import { AddReplyComponent } from './components/add-reply/add-reply.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'topics', pathMatch: 'full' },
   { path: 'add-topic', component: AddTopicComponent },
   { path: 'topics', component: ListTopicComponent },
-  { path: 'add-reply', component: AddReplyComponent }
+  { path: 'add-reply', component: ListTopicComponent }
 ];
 
 @NgModule({
