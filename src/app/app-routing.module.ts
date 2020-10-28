@@ -1,13 +1,14 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { AddTopicComponent } from './add-topic/add-topic/add-topic.component';
+import { ListTopicComponent } from './list-topic/list-topic/list-topic.component';
+
 import { AddReplyComponent } from './components/add-reply/add-reply.component';
-import { AddTopicComponent } from './components/add-topic/add-topic.component';
-import { ListTopicsComponent } from './components/list-topics/list-topics.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'topics', pathMatch: 'full' },
   { path: 'add-topic', component: AddTopicComponent },
-  { path: 'topics', component: ListTopicsComponent },
+  { path: 'topics', component: ListTopicComponent },
   { path: 'add-reply', component: AddReplyComponent }
 ];
 

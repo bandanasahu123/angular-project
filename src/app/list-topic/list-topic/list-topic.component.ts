@@ -1,13 +1,30 @@
+// import { Component, OnInit } from '@angular/core';
+
+// @Component({
+//   selector: 'app-list-topic',
+//   templateUrl: './list-topic.component.html',
+//   styleUrls: ['./list-topic.component.css']
+// })
+// export class ListTopicComponent implements OnInit {
+
+//   constructor() { }
+
+//   ngOnInit() {
+//   }
+
+// }
+
+
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from 'src/app/services/api.service';
 
 
 @Component({
-  selector: 'app-list-topics',
-  templateUrl: './list-topics.component.html',
-  styleUrls: ['./list-topics.component.css']
+  selector: 'app-list-topic',
+  templateUrl: './list-topic.component.html',
+  styleUrls: ['./list-topic.component.css']
 })
-export class ListTopicsComponent implements OnInit {
+export class ListTopicComponent implements OnInit {
 
   topics: any
   topicList: any
@@ -29,6 +46,7 @@ export class ListTopicsComponent implements OnInit {
     })
   }
 
-  
+
 
 }
+

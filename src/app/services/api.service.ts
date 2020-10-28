@@ -2,7 +2,6 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
-const baseURL = 'http://localhost:8080/api/tutorials'
 const getTopicsUrl = '/api/category/3'
 const createTopicsUrl = '/api/topic/v1/create'
 
