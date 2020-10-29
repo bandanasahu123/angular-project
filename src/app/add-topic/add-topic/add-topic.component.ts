@@ -14,7 +14,7 @@
 
 // }
 
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { ApiService } from 'src/app/services/api.service';
 import { RouterModule, Routes, Router, ActivatedRoute } from '@angular/router';
 import { Validators, FormBuilder, FormGroup, FormControl } from '@angular/forms';
@@ -25,6 +25,9 @@ import { Validators, FormBuilder, FormGroup, FormControl } from '@angular/forms'
   styleUrls: ['./add-topic.component.css']
 })
 export class AddTopicComponent implements OnInit {
+
+  @Input() cid: any;
+  @Input() authToken: any;
 
   topicAddForm: FormGroup
   topic = {
@@ -42,13 +45,14 @@ export class AddTopicComponent implements OnInit {
   }
 
   saveTopic() {
+
     console.log('----------FormControl', this.topicAddForm)
     let data = {
       "params": {
-        "msgid": "4f04da60-1e24-4d31-aa7b-1daf91c46341"
+        "msgid": this.authToken
       },
       "request": {
-        "cid": 3,
+        "cid": this.cid,
         "title": this.topicAddForm.value.title,
         "content": this.topicAddForm.value.content
       }

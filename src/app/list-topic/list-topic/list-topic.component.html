@@ -1,5 +1,5 @@
 <section>
-  <div class="container-fluid">
+  <div class="container-fluid my-4">
     <div class="row">
       <div class="col">
         <h1>Topic List</h1>
@@ -12,9 +12,10 @@
                 </p>
               </div>
               <div class="col-4">
-                <button class="btn btn-primary m-2">Reply</button>
-                <button class="btn btn-primary m-2">up-vote {{topic.upvotes}}</button>
-                <button class="btn btn-primary m-2">down-vote {{topic.downvotes}}</button>
+                <button  class="btn btn-primary m-1">All Reply</button>
+                <button data-toggle="collapse" data-target="#demo" class="btn btn-primary m-1">Add Reply</button>
+                <button class="btn btn-primary m-1">up-vote {{topic.upvotes}}</button>
+                <button class="btn btn-primary m-1">down-vote {{topic.downvotes}}</button>
               </div>
 
             </div>
@@ -22,6 +23,12 @@
 
         </ul>
       </div>
+    </div>
+
+    <div id="demo" class="collapse">
+      <form action="">
+        <textarea name="content" id="content" cols="30" rows="10" placeholder="content"></textarea>
+      </form>
     </div>
   </div>
 </section>

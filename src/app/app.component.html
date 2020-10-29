@@ -1,4 +1,4 @@
-<div>
+<!-- <div>
   <nav class="navbar navbar-expand bg-dark navbar-dark">
     <a href="#" class="navabr-brand">Sunbird</a>
     <div class="navbar-nav mr-auto">
@@ -7,14 +7,21 @@
       </li>
       <li class="navbar-item">
         <a routerLink="add-topic" class="nav-link">Add Topic</a>
-      </li>
-      <!-- <li class="navbar-item">
+      </li> -->
+<!-- <li class="navbar-item">
         <a routerLink="add-reply" class="nav-link">Add Reply</a>
       </li> -->
-    </div>
+<!-- </div>
   </nav>
   <div class="container mt-3">
     <router-outlet></router-outlet>
-    <!-- <app-add-topic></app-add-topic> -->
   </div>
-</div>
+</div> -->
+
+<section>
+  <app-add-topic [cid]="cid" [authToken]="authToken"></app-add-topic>
+</section>
+
+<section>
+  <app-list-topic></app-list-topic>
+</section>

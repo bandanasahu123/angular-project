@@ -5,10 +5,10 @@ import { ListTopicComponent } from './list-topic/list-topic/list-topic.component
 
 
 const routes: Routes = [
-  { path: '', redirectTo: 'topics', pathMatch: 'full' },
-  { path: 'add-topic', component: AddTopicComponent },
-  { path: 'topics', component: ListTopicComponent },
-  { path: 'add-reply', component: ListTopicComponent }
+  // { path: '', redirectTo: 'topics', pathMatch: 'full' },
+  // { path: 'add-topic', component: AddTopicComponent },
+  // { path: 'topics', component: ListTopicComponent },
+  // { path: 'add-reply', component: ListTopicComponent }
 ];
 
 @NgModule({
